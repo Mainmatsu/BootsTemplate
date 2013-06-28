@@ -38,7 +38,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap.nuget.readme.txt" />
     <Content Include="Content\bootstrap\img\glyphicons-halflings-white.png" />
     <Content Include="Content\bootstrap\img\glyphicons-halflings.png" />
     <Content Include="Content\bootstrap\js\bootstrap-alert.js" />
@@ -53,25 +52,17 @@
     <Content Include="Content\bootstrap\js\bootstrap-tooltip.js" />
     <Content Include="Content\bootstrap\js\bootstrap-transition.js" />
     <Content Include="Content\bootstrap\js\bootstrap-typeahead.js" />
-    <Content Include="Content\bootstrap\js\less-1.3.3.min.js" />
-    <Content Include="Content\bootstrap\js\tests\index.html" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-alert.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-button.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-collapse.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-dropdown.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-modal.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-popover.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-scrollspy.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-tab.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-tooltip.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-transition.js" />
-    <Content Include="Content\bootstrap\js\tests\unit\bootstrap-typeahead.js" />
-    <Content Include="Content\bootstrap\js\tests\vendor\jquery.js" />
-    <Content Include="Content\bootstrap\js\tests\vendor\qunit.css" />
-    <Content Include="Content\bootstrap\js\tests\vendor\qunit.js" />
+    <Content Include="Content\bootstrap\less\labels-badges.less" />
+    <Content Include="Content\bootstrap\less\media.less" />
+    <Content Include="Content\bootstrap\less\responsive-1200px-min.less" />
+    <Content Include="Content\bootstrap\less\responsive-767px-max.less" />
+    <Content Include="Content\bootstrap\less\responsive-768px-979px.less" />
+    <Content Include="Content\bootstrap\less\responsive-navbar.less" />
+    <Content Include="Content\bootstrap\less\responsive-utilities.less" />
     <Content Include="Content\google-code-prettify\prettify.css" />
     <Content Include="Content\google-code-prettify\prettify.js" />
     <Content Include="Content\my.less" />
+    <Content Include="Content\src\less-1.3.3.min.js" />
     <Content Include="Index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -96,7 +87,6 @@
     <Content Include="Content\bootstrap\less\modals.less" />
     <Content Include="Content\bootstrap\less\mixins.less" />
     <Content Include="Content\bootstrap\less\layouts.less" />
-    <Content Include="Content\bootstrap\less\labels.less" />
     <Content Include="Content\bootstrap\less\hero-unit.less" />
     <Content Include="Content\bootstrap\less\grid.less" />
     <Content Include="Content\bootstrap\less\forms.less" />
@@ -109,10 +99,8 @@
     <Content Include="Content\bootstrap\less\button-groups.less" />
     <Content Include="Content\bootstrap\less\breadcrumbs.less" />
     <Content Include="Content\bootstrap\less\bootstrap.less" />
-    <Content Include="Content\bootstrap\less\badges.less" />
     <Content Include="Content\bootstrap\less\alerts.less" />
     <Content Include="Content\bootstrap\less\accordion.less" />
-    <Content Include="Content\bootstrap\js\README.md" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
